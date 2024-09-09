@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background-color: #f2efe7;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid yellow;
+}
+
+.talk-btn {
+  padding: 10px 20px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 270px;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+.highlight {
+  color: black;
+  background-color: yellow;
+  padding: 0 5px;
+  border-bottom: 3px solid yellow;
+}
+
+h3 {
+  font-family: "Times New Roman";
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.star-list {
+  list-style-type: none; /* Suppression des puces par défaut */
+}
+
+.star-list li {
+  position: relative;
+  font-size: 40px;
+}
+
+.star-list li::before {
+  content: "\2605"; /* Code Unicode pour l'étoile */
+  color: yellow; /* Couleur de l'étoile */
+}
+
+.cn {
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.additional-buttons {
+  margin-top: 120px; /* Espacement entre le bouton "Want to discuss" et les nouveaux boutons */
+}
+
+.btn1 {
+  width: 200px;
+  height: 40px;
+  background: transparent; /* Fond transparent */
+  border: 3px solid black; /* Bordure noire de 2px */
+  color: black; /* Couleur du texte */
+  padding: 10px; /* Ajustement du padding */
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px; /* Espacement entre les boutons */
+  margin-right: 40px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce pour la couleur de fond et du texte */
+}
+.btn2 {
+  width: 200px;
+  height: 40px;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Navbar */
+.navbar2 {
+  margin-top:25px;
+  background-color: black; /* Fond noir */
+  width: 100%; /* Prend toute la largeur */
+  padding: 10px 0;
+  height:40px; /* Espace en haut et en bas pour la barre de navigation */
+}
+
+/* Menu */
+.menu2 {
+  display: flex; /* Affiche les éléments en ligne */
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  list-style-type: none; /* Suppression des puces */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les padding par défaut */
+}
+
+/* Menu Items */
+.menu2 li {
+  margin: 0 55px; /* Espace horizontal entre les éléments */
+  color: white; /* Couleur du texte en blanc */
+  font-size: 22px; /* Taille de police */
+
+  position: relative; /* Pour permettre l'utilisation de ::before */
+  padding-left: 32git branch
+  px; /* Espace à gauche pour l'étoile */
+}
+
+/* Ajout de l'étoile avant chaque élément */
+.menu2 li::before {
+  content: "\2605"; /* Code Unicode pour l'étoile */
+  color: yellow; /* Couleur de l'étoile en jaune */
+  position: absolute; /* Position absolue pour placer l'étoile */
+  left: 0; /* Place l'étoile à gauche de chaque élément */
+  top: -5px;  /* Aligne en haut */
+ 
+}
+
+/* Optionnel : Changer la couleur lors du survol */
+.menu2 li:hover {
+  color: yellow; /* Change la couleur du texte lors du survol */
+}
+
