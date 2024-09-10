@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -242,8 +243,8 @@ h3 {
 .view-all-btn {
   display: block;
   width: 200px;
-  background: #ffc107;
-  color: white;
+  background: yellow;
+
   border: none;
   padding: 10px;
   text-align: center;
@@ -253,5 +254,123 @@ h3 {
 }
 
 .view-all-btn:hover {
-  background-color: #e0a800;
+  background-color: yellow;
+}
+.Portfolios-header {
+  text-align: center;
+  /* Centers the block itself if it has a specified width */
+  padding: 20px; /* Optional: adds padding around the content */
+}
+
+.Portfolios-header h1 {
+  color: black;
+  font-size: 32px;
+  text-decoration-line: underline; /* Specifies the type of text decoration */
+  text-decoration-color: yellow; /* Sets the color of the decoration */
+  text-decoration-style: solid; /* Optional: sets the style of the decoration line */
+}
+.Portfolios-header p {
+   font-size: 18px;
+ }
+ 
+ .Portfolios-grid {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 20px 10px;
+   
+ }
+ 
+ 
+ .Portfolios-card {
+   background: #D9D9D9;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   width: 450px;
+   height:250px;
+   margin-bouton:20px;
+   justify-content: center;
+   padding: 20px;
+   padding-top:24px;
+   margin-top:20px;  
+   text-align: center;
+   align-items: center;     /* Centre verticalement */
+   border-radius: 10px;
+ }
+ .Portfolios-card h1{
+  margin-top:20px;
+}
+ .Portfolios-card p{
+   fond-size:20px;
+   margin-top:20px;
+ }
+ .talk{
+  display: block;
+  width: 200px;
+  background: black;
+  color:white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin-top:20px;
+  border-radius: 20px;
+  font-size:15px;
+  
+
+
+ }
+ .talk:hover{
+  background:yellow;
+  color:black;
+ }
+
+ 
+ .contact-container {
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  background-color: #000000; /* Fond noir */
+  padding: 20px; /* Espacement intérieur */
+  height: 120px; /* Hauteur plus grande */
+ width: 100%; /* Prend toute la largeur */
+  margin-top:20px;
+  gap: 20px; /* Espacement entre les éléments */
+ 
+}
+
+.contact-item {
+  color: #ffffff; /* Couleur du texte blanche */
+  text-decoration: none; /* Supprime le soulignement des liens */
+  font-size: 20px; /* Taille de la police */
+  display: flex;
+  align-items: center; /* Aligne les icônes et le texte verticalement */
+}
+.contact-item a :hover{
+  background:yellow;
+  color:black;
+ }
+
+.contact-item i {
+  font-size: 24px; /* Taille des icônes */
+  margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+/* Container for the circular image */
+.image-container {
+  position: absolute;
+  top: -8px;
+  left: 1000px;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  background-color: yellow; /* Yellow background */
+  width: 250px; /* Width of the circle */
+  height: 250px; /* Height of the circle */
+  border-radius: 50%; /* Makes the container circular */
+  margin: 20px auto; /* Center horizontally with some margin */
+}
+
+/* Style the image inside the container */
+.image-container img {
+  width: 100%; /* Make the image cover the container */
+  height: 100%; /* Make the image cover the container */
+  border-radius: 50%; /* Ensure the image is circular */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
 }
